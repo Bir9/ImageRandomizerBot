@@ -8,7 +8,7 @@ def change_contrast(img, level):
     return img.point(contrast)
 
 
-randint = random.randint(1, 5)
+randint = random.randint(1, 6) #TODO: Make max limit the amount of files inside the "images" folder
 rand = str(randint)
 randSaturation = random.randint(0, 55)
 randBrightness = random.uniform(0, 2)

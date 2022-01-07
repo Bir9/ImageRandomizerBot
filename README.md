@@ -1,10 +1,10 @@
-Git repo for the @ImageRandomizer Twitter account / bot 
+This is the GitHub repo for the @ImageRandomizer Twitter account which can be found here:https://twitter.com/ImageRandomizer
 
-Built using Tweepy and Pillow
 
-For additional questions DM the Twitter bot
-
+This bot uses the Tweepy libary to utilise the Twitter API. The Pillow fork of PIL is being used to process and manipulate images.
 
 
 
-Totaly didn't make a new repo becuase I had all my auth tokens in another commit
+
+
+DM the bot on Twitter for extra information and I will get back to you as fast as I can.

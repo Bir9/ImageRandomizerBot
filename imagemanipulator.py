@@ -1,5 +1,5 @@
 from PIL import Image, ImageEnhance, ImageFile
-import random, shutil, os, os.path
+import random, os, os.path
 ImageFile.LOAD_TRUNCATED_IMAGES = True
 
 def change_contrast(img, level):
@@ -11,7 +11,7 @@ def change_contrast(img, level):
 randint = random.randint(1, 7) #TODO: Make max limit the amount of files inside the "images" folder
 rand = str(randint)
 def manipultor():
-    randSaturation = random.randint(0, 55)
+    randSaturation = random.randint(-55, 55)
     randBrightness = random.uniform(0, 2)
     randContrast = random.randint(0, 255)
     file = './images/' + rand + '.png'
